@@ -63,3 +63,5 @@ There are a number of [string functions](https://developer.mozilla.org/en-US/doc
 If a string function exists as a rule, that is the function you should use.
 Please familiarise yourself with the functions that already exist in javascript.
 
+When looking at the documentation please note the depreciated functions. They have a icon on the left of a hand with it's thumb pointing down.
+Those are functions you don't want to use.
