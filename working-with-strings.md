@@ -40,3 +40,26 @@ example:
 ```
 
 will result in `item1 or item 2`
+
+### Determining if a string matches a search string
+To check if a search string exists in a string check the index for that item.
+If the index is greater than -1 then the substring is present in the string
+example:
+
+```
+const isPresent = "hello world".indexOf("wo") > -1;
+```
+
+if you are doing a case insensitive search search the string in it's lowercase form.
+
+example:
+
+```
+const isPresent = "Hello World".toLowerCase().indexOf("wo") > -1;
+```
+
+## Closing
+There are a number of [string functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) in javascript;  
+If a string function exists as a rule, that is the function you should use.
+Please familiarise yourself with the functions that already exist in javascript.
+
