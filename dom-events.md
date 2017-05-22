@@ -40,3 +40,9 @@ To ensure that the keyword "this" means the class we use the bind method to defi
 If you want the keyword "this" to mean anything else when the event fires you can define it during the bind call.
 
 Now that you have defined the pointer you can assign it as callback to the events.
+
+Note: The name of the handler is that of the method + Handler e.g. doSomething function has a handler of doSomethingHandler
+
+### Dom evens on lists and list items
+As a rule do not add event listeners for list items but rather on the list itself.  
+e.g. do not add events on each li in a ul, instead put one event listener on the ul and check target property of the event to see if the the target is the item you are interested in.
