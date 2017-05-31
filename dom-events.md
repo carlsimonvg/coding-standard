@@ -46,3 +46,8 @@ Note: The name of the handler is that of the method + Handler e.g. doSomething f
 ### Dom evens on lists and list items
 As a rule do not add event listeners for list items but rather on the list itself.  
 e.g. do not add events on each li in a ul, instead put one event listener on the ul and check target property of the event to see if the the target is the item you are interested in.
+
+### Passive events by default
+Ensure that youre events for input is defined as passive by default.  
+https://developers.google.com/web/tools/lighthouse/audits/passive-event-listeners
+
