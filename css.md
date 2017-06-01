@@ -4,6 +4,8 @@
 1. css names are all lowercase and new words are seprated by "-" e.g. "some-class"
 
 ## Variables
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+
 1. Variables are used when css properties are modified by the application.
 1. They are not to be used as a distribution of constants, that is what scss is for.
 
