@@ -3,7 +3,7 @@
 Javascript has good support for both functional programming and object orientation.
 The purpose of this document is to define when to use functional vs oop and the limitations around it.
 
-## Funcitonal
+## Functional
 ### Try to favoid
 1. avoid closures  
 1. avoid potential memory leaks  
