@@ -67,7 +67,7 @@ Example:
 
 Try and keep class names as short as possible.  
 
-## Varialbes
+## Variables
 As far as possible you should not be hard coding values in your scss but instead reference scss variables located in your variables.scss file.
 
 ## Colors
