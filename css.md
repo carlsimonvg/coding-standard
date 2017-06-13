@@ -39,3 +39,31 @@ Markup must follow a mobile first where possible.
 
 Mobile spesific changes must be located in a mobile folder   
 Desktop spesific changes must be located in a desktop folder
+
+scss folder structure looks like:
+
+project root
+---- scss
+-------- lib
+------------ variables.scss
+------------ colors.scss
+------------ mixins.scss
+
+## class names
+CSS class names are all lower case and each new word is sperated by a "-"  
+Example: 
+```
+.my-css-class {
+    background: blue
+}
+```
+
+## Varialbes
+As far as possible you should not be hard coding values in your scss but instead reference scss variables located in your variables.scss file.
+
+## Colors
+Colors must be declared and properly named in the colors.scss file.
+The color names should be used where you assign it in classes.
+
+## Mixins
+Use mixins to eliminate repetition of browse extensions or provide functional calculation of css.
