@@ -43,11 +43,18 @@ Desktop spesific changes must be located in a desktop folder
 scss folder structure looks like:
 
 project root
----- scss
--------- lib
------------- variables.scss
------------- colors.scss
+---- scss  
+
+-------- lib  
+------------ variables.scss  
+------------ colors.scss  
 ------------ mixins.scss
+
+-------- views  
+------------ view1.scss  
+  
+-------- style.scss  
+
 
 ## class names
 CSS class names are all lower case and each new word is sperated by a "-"  
